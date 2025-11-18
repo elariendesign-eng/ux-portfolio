@@ -8,10 +8,9 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Home", path: "/" },
-    { label: "Case Studies", path: "/case-studies" },
+    { label: "Work", path: "/case-studies" },
     { label: "About", path: "/about" },
-    { label: "Talents", path: "/talents" },
+    { label: "Services", path: "/services" },
     { label: "Contact", path: "/contact" },
   ];
 
@@ -20,18 +19,18 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <a className="font-serif text-2xl font-bold text-foreground hover-elevate active-elevate-2 px-3 py-2 rounded-md" data-testid="link-home">
-              ARB
+            <a className="font-serif text-2xl font-semibold text-foreground hover-elevate active-elevate-2 px-3 py-2 rounded-md" data-testid="link-home">
+              Angela Rose Boyle
             </a>
           </Link>
 
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
                 <a
-                  className={`px-4 py-2 rounded-md text-sm font-medium transition-colors hover-elevate active-elevate-2 ${
+                  className={`text-sm font-medium transition-colors hover:text-primary ${
                     location === item.path
-                      ? "text-primary"
+                      ? "text-primary border-b-2 border-primary"
                       : "text-muted-foreground"
                   }`}
                   data-testid={`link-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
@@ -40,6 +39,11 @@ export default function Navigation() {
                 </a>
               </Link>
             ))}
+            <Link href="/contact">
+              <Button size="sm" data-testid="button-hire-me">
+                Hire Me
+              </Button>
+            </Link>
           </div>
 
           <Button
@@ -70,6 +74,11 @@ export default function Navigation() {
                 </a>
               </Link>
             ))}
+            <Link href="/contact">
+              <Button className="w-full mt-4" size="sm" data-testid="button-hire-me-mobile">
+                Hire Me
+              </Button>
+            </Link>
           </div>
         )}
       </div>

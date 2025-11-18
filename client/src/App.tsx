@@ -8,7 +8,7 @@ import HomePage from "@/pages/HomePage";
 import CaseStudiesPage from "@/pages/CaseStudiesPage";
 import CaseStudyDetailPage from "@/pages/CaseStudyDetailPage";
 import AboutPage from "@/pages/AboutPage";
-import TalentsPage from "@/pages/TalentsPage";
+import ServicesPage from "@/pages/ServicesPage";
 import ContactPage from "@/pages/ContactPage";
 import NotFound from "@/pages/not-found";
 
@@ -19,7 +19,7 @@ function Router() {
       <Route path="/case-studies" component={CaseStudiesPage} />
       <Route path="/case-study/:id" component={CaseStudyDetailPage} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/talents" component={TalentsPage} />
+      <Route path="/services" component={ServicesPage} />
       <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
     </Switch>

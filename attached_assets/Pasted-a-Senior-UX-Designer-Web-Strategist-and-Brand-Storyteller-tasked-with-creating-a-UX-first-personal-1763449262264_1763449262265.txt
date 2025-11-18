@@ -1,0 +1,116 @@
+a Senior UX Designer, Web Strategist, and Brand Storyteller tasked with creating a UX-first personal portfolio website for Angela Rose Boyle (ARB) — a professional UX/UI Specialist at a Fortune 500 company. The website must demonstrate strong UX thinking, clean visual hierarchy, and emotional storytelling that immediately impresses hiring managers while laying the foundation for future freelance work.
+
+Objective:
+Design and structure a website that:
+
+Showcases Angela’s UX expertise, process, and credibility to recruiters and design leads.
+
+Introduces her freelance brand Divine Align Design for future consulting leads.
+
+Embodies her aesthetic — modern × whimsical × fantasy-meets-professional — while maintaining polish and clarity.
+
+Core Brand Attributes:
+
+Tone: Cool, confident, human
+
+Visual Feel: Teal + gold palette, orchid-pink accent, celestial/vine motifs
+
+Mood: Whimsical + elevated + refined minimalism
+
+Tagline Concept: Where logic meets imagination
+
+Target Audience:
+Primary – UX design hiring managers and recruiters
+Secondary – Freelance UX/consulting clients and creative collaborators
+
+UX Principles to Prioritize:
+
+Clear information architecture with intuitive navigation
+
+Consistent hierarchy and spacing
+
+Accessibility (contrast, alt text, readable typography)
+
+Mobile-first responsive design
+
+Emotional design: warmth + credibility balance
+
+Storytelling through process and visual flow
+
+Website Architecture (6 Pages + Supporting Elements):
+
+Home – Hero statement, brief bio, primary CTA (“View Case Studies”), secondary CTA (“Work With Me”). Animated hero or subtle scroll effect.
+
+Case Studies (4 Total) – Individual project pages with consistent UX case-study structure:
+
+Overview (problem, role, timeline)
+
+Process (research → ideation → design → testing)
+
+Impact (results, metrics, learnings)
+
+Visual mockups for mobile & desktop
+
+Optional interactive prototype embed
+
+About Me – Personal story, global experience, transition from pro soccer to UX; focus on empathy, leadership, adaptability. Include professional headshot.
+
+Services / Consulting (Freelance Preview) – Intro to Divine Align Design: UX Audits, Interface Redesigns, Product Strategy, Brand Consulting. Clear “Contact for Consulting” CTA.
+
+Gallery / Creative Work – Select modeling & fantasy-themed photoshoots showcasing personal creativity and brand aesthetic without distracting from UX professionalism.
+
+Contact – Clean, easy form (Name / Email / Reason for Contact dropdown); include LinkedIn + email + optional Calendly integration.
+
+Navigation & IA Recommendations:
+
+Persistent top nav: Home | Case Studies | About | Services | Gallery | Contact
+
+Sticky CTA in nav: “View My Work”
+
+Footer: condensed nav + copyright + social icons
+
+Visual & UI Guidelines:
+
+Typography: modern serif + clean sans pairing (e.g., Playfair Display + Inter)
+
+Motion: subtle parallax or fade transitions to convey sophistication
+
+Imagery: blend professional UX visuals (screens, wireframes) with soft fantasy backgrounds (stars, light texture)
+
+Components: card layouts, iconography for UX deliverables, and grid alignment
+
+Deliverables Expected from You (the AI):
+
+Full sitemap + IA diagram
+
+Page-by-page content outline with UX rationale
+
+Suggested copy tone and microcopy examples
+
+Visual style system (colors, typography, spacing, motion guidelines)
+
+Optional Figma-ready component guide or Squarespace implementation plan
+
+Accessibility checklist + SEO optimization outline (keywords: UX Designer Angela Boyle, UX Portfolio, UX Consultant, Divine Align Design)
+
+Constraints:
+
+Must be professional first, creative second
+
+Clear hierarchy > ornamentation
+
+Content brevity and scannability are critical
+
+Stretch Goals (optional):
+
+Add subtle “Experience Map” or “Timeline” animation on About page
+
+Incorporate AI chat or contact assistant (“Ask Angela”) for engagement
+
+Integrate blog or “Insights” section later for thought leadership
+
+Deliver the output as:
+
+Structured design brief with visual + content recommendations
+
+Highlight how each section satisfies UX design principles and hiring-manager expectations

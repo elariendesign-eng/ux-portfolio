@@ -1,41 +1,65 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBackground from "@assets/generated_images/Hero_ethereal_gradient_background_f91fffb1.png";
+import { Link } from "wouter";
+import heroBackground from "@assets/generated_images/Celestial_teal_gold_hero_background_e218c69a.png";
+import headshot from "@assets/generated_images/Professional_headshot_Angela_b930a33f.png";
 
 export default function Hero() {
   const scrollToContent = () => {
-    window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+    window.scrollTo({ top: window.innerHeight * 0.85, behavior: "smooth" });
   };
 
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[85vh] w-full flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: `url(${heroBackground})`,
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background"></div>
       </div>
 
-      <div className="relative z-10 text-center px-6 max-w-5xl">
+      <div className="relative z-10 text-center px-6 max-w-5xl py-20">
+        <div className="mb-8 inline-block">
+          <img
+            src={headshot}
+            alt="Angela Rose Boyle"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary/20 shadow-2xl mx-auto"
+            data-testid="img-headshot"
+          />
+        </div>
+        
         <h1
-          className="font-serif text-7xl md:text-8xl lg:text-9xl font-bold mb-6 text-foreground"
+          className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium mb-4 text-foreground"
           data-testid="text-hero-name"
         >
-          ARB
+          Angela Rose Boyle
         </h1>
+        
         <p
-          className="font-serif text-xl md:text-2xl lg:text-3xl text-foreground/90 font-light mb-8"
+          className="font-serif text-xl md:text-2xl lg:text-3xl text-foreground/80 font-light italic mb-8"
           data-testid="text-hero-tagline"
         >
-          UX Designer. Strategist. Story-Driven Creator.
+          Where logic meets imagination
         </p>
-        <div className="flex flex-wrap gap-4 justify-center text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
-          <span className="px-4 py-2 bg-card/50 backdrop-blur rounded-xl border border-border">Systems Thinking</span>
-          <span className="px-4 py-2 bg-card/50 backdrop-blur rounded-xl border border-border">User Research</span>
-          <span className="px-4 py-2 bg-card/50 backdrop-blur rounded-xl border border-border">Product Strategy</span>
-          <span className="px-4 py-2 bg-card/50 backdrop-blur rounded-xl border border-border">Global Awareness</span>
+
+        <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
+          Senior UX Designer & Strategist crafting meaningful digital experiences through
+          user research, product strategy, and empathetic design
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="/case-studies">
+            <Button size="lg" data-testid="button-view-work">
+              View My Work
+            </Button>
+          </Link>
+          <Link href="/about">
+            <Button size="lg" variant="outline" className="backdrop-blur-sm bg-background/50" data-testid="button-read-about">
+              Read About Me
+            </Button>
+          </Link>
         </div>
       </div>
 

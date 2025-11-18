@@ -1,96 +1,94 @@
-# UX Portfolio Design Guidelines - ARB
+# Divine Align Design Portfolio - Angela Rose Boyle
+## Design Guidelines
 
 ## Design Approach
-**Aesthetic Direction**: Modern minimalist foundation with fantasy-inspired elegance. Think "tech professional meets elven royalty" - clean interfaces with magical undertones through jewel tones, subtle gradients, and ethereal touches. Reference high-end portfolio sites like Brittany Chiang or Adham Dannaway for structure, but inject fantasy energy through color, typography, and micro-interactions.
+**Aesthetic Direction**: Professional minimalist foundation with celestial-botanical whimsy. Clean, spacious layouts that exude UX expertise credibility, enhanced by subtle teal/gold sophistication and delicate celestial/vine motifs. Think Stripe's restraint meets Notion's polish with starlit elegance. Reference: Brittany Chiang, Adham Dannaway portfolios - adapt structure with Divine Align's refined whimsy.
+
+**Brand Philosophy**: "Where logic meets imagination" - every design choice balances professional authority with creative soul.
 
 ## Core Design Elements
 
 ### Typography System
-- **Headers**: Serif font (Playfair Display or Cormorant Garamond) for elegant, regal feel - use for name "ARB", page titles, and section headers
-- **Body**: Clean sans-serif (Inter or DM Sans) for readability and modern professionalism
+- **Display**: Playfair Display for "Angela Rose Boyle", "Divine Align Design", section headers - serif elegance
+- **Body**: Inter for all content, navigation, case study text - modern readability
 - **Hierarchy**: 
-  - Hero name/ARB: text-6xl to text-8xl, serif, bold
-  - Tagline: text-xl to text-2xl, serif, light weight
-  - Section headers: text-4xl, serif
-  - Body text: text-base to text-lg, sans-serif
-  - Captions: text-sm, sans-serif
+  - Name/Brand: text-7xl to text-8xl, serif, medium weight
+  - Tagline: text-2xl, serif, light italic
+  - Section headers: text-5xl, serif, medium
+  - Subheaders: text-2xl, sans-serif, semibold
+  - Body: text-lg, sans-serif, regular
+  - Captions: text-sm, sans-serif, light
 
 ### Layout System
-**Spacing Units**: Use Tailwind units of 4, 6, 8, 12, 16, 20, 24 for consistent rhythm
-- Section padding: py-20 to py-32 on desktop, py-12 to py-16 on mobile
-- Component spacing: gap-8 to gap-12 for grids
-- Content max-width: max-w-7xl for full sections, max-w-4xl for text-heavy content
+**Spacing Units**: Tailwind units of 4, 8, 12, 16, 20, 24, 32
+- Section padding: py-24 to py-32 desktop, py-16 mobile
+- Component gaps: gap-8 to gap-12
+- Container widths: max-w-7xl for sections, max-w-5xl for case study content
 
 ### Visual Treatment
-- **Shadows**: Soft, layered shadows (shadow-lg, shadow-xl) for depth and elegance
-- **Corners**: Rounded elements throughout - rounded-xl for cards, rounded-2xl for larger containers
-- **Gradients**: Subtle jewel-tone gradients as accents (not overwhelming) - use in hero backgrounds, card overlays, button states
-- **Glass Effects**: Frosted glass/backdrop blur for overlays and navigation (backdrop-blur-lg)
+- **Shadows**: Sophisticated elevation - shadow-lg for cards, shadow-2xl for modals
+- **Corners**: rounded-2xl for major cards, rounded-xl for buttons/inputs
+- **Borders**: Delicate 1px borders in subtle teal/gold on hover states
+- **Motifs**: SVG celestial elements (stars, constellation lines, crescent moons) and vine flourishes as section dividers and background accents - always subtle, never overpowering
 
 ## Component Library
 
 ### Navigation
-Fixed header with glass morphism effect, elegant serif logo "ARB", minimal menu items. Smooth scroll behavior with subtle parallax on scroll.
+Fixed glass header (backdrop-blur-lg) with "ARB" or full name left-aligned, centered nav links (Work, About, Contact), optional "Hire Me" CTA button right-aligned. Teal underline animation on active states. Constellation dots subtly connecting nav items on desktop.
 
 ### Hero Section (Homepage)
-Full-viewport or 80vh hero with ethereal background treatment (gradient mesh or subtle particle effect). Large "ARB" typography centered, tagline beneath. Smooth scroll indicator. Background should feel magical but not distracting - think aurora-like gradient with jewel tones.
+Full-width hero (85vh) with professional headshot + gradient overlay background featuring teal-to-gold gradient with subtle celestial particle effects. Large centered name, tagline beneath, dual CTAs ("View Work" + "Read About Me"). Delicate vine illustrations framing the content. Smooth scroll indicator with star icon.
 
-### Case Study Cards
-Grid layout (2 columns desktop, 1 mobile) with project thumbnails, hover states revealing project title and brief description. Rounded corners, soft shadows that lift on hover. Each card should feel like opening a portal to that project.
+### Case Study Grid
+2-column desktop, 1-column mobile. Each card features project thumbnail with subtle teal overlay on hover revealing project title, role, and short impact statement. Gold accent line appearing on hover. Constellation connecting dots between cards as decorative element.
 
-### Photo Galleries (Modeling/About)
-Masonry or staggered grid layout for visual interest. Lightbox functionality for full-screen viewing. Mix portrait and landscape orientations. Subtle fade-in animations on scroll.
+### Project Detail Structure
+Hero image (full-width) → Overview sidebar (problem, role, timeline, tools) → Challenge → Research & Insights → Information Architecture → Design Process → Final Designs (full-width showcases) → Learnings & Impact. Vine dividers between major sections.
 
-### Project Detail Pages
-Clean single-column layout with strategic full-width image sections. Sections: Overview, Problem, Research, Insights, IA/Wireframes, Final Designs, Learnings, Impact. Each section clearly delineated with generous spacing.
+### About Page Layout
+Hero with professional photo + brand story → UX Journey timeline (horizontal scroll or vertical with celestial waypoints) → Expertise grid (3-4 columns of skills with icons) → Values/Approach cards → Soccer/Travel/Modeling gallery (masonry, 8-12 images) → CTA to connect
 
-### Contact Form
-Clean, minimal form with elegant input styling. Soft focus states with jewel-tone accents. Floating labels or inline labels with sophisticated styling.
-
-## Color Strategy (Jewel Tones)
-While specific colors will be defined later, the palette structure:
-- **Primary Jewel Tones**: Emerald (primary actions/links), Sapphire (secondary elements), Amethyst (accents)
-- **Neutral Base**: Clean whites/off-whites with sophisticated grays
-- **Application**: Use jewel tones sparingly for maximum impact - buttons, links, section accents, gradient overlays
+### Contact Section
+Centered form (max-w-2xl) with elegant inputs, teal focus states, gold submit button. Alternative contact methods (email, LinkedIn) with celestial icon bullets. Vine illustration accent in corner.
 
 ## Animations & Motion
-Subtle and elegant - never distracting:
-- Smooth page transitions and scroll-triggered fade-ins
-- Gentle hover lifts on cards (transform: translateY(-4px))
-- Parallax scrolling on hero section (subtle)
-- Smooth reveal animations for content sections
-- Cursor interactions (optional custom cursor with magical trail)
+Restrained and purposeful:
+- Scroll-triggered fade-ups for content sections (100ms stagger)
+- Gentle card lift on hover (translateY(-6px), 300ms ease)
+- Smooth color transitions for interactive elements
+- Parallax on hero background (subtle 0.3 ratio)
+- Constellation line drawing animations on page load (SVG path animation)
 
 ## Images
 
-### Hero Section
-Large, ethereal background image or gradient mesh. Could be abstract/fantasy-inspired visual (think misty forests, auroras, celestial elements) or professional headshot with magical overlay treatment.
+### Hero Background
+Gradient mesh background (teal to deep navy to gold) with subtle overlay of constellation map or celestial particle field. Professional headshot overlaid with frosted circular frame or integrated into the composition. Vine silhouettes as decorative framing.
 
 ### Case Study Thumbnails
-High-quality project mockups or hero images for each of the 4 case studies.
+High-fidelity mockups for 4 UX projects showcasing polished interfaces. Each should highlight the project's visual identity while maintaining portfolio cohesion.
 
 ### About Me Page
-Professional UX headshot, plus candid photos from soccer career, international travels. Modeling gallery with 6-12 curated high-fashion images.
+Professional UX headshot (hero), 2-3 candid shots from soccer career, 2-3 travel photos showcasing global perspective, 3-4 modeling/creative images demonstrating visual sensibility. All curated for professional context.
 
-### Additional Talents Page
-Modeling portfolio with 10-15 images, including fantasy-themed photoshoot concepts. Mix of editorial, fashion, and creative direction work.
+### Decorative Elements
+SVG constellation patterns, vine flourishes, crescent moon icons, star accents - used sparingly as section dividers and background details. Never compete with content.
 
 ## Page-Specific Layouts
 
 ### Homepage
-Hero (80vh) → Value Proposition (3-4 key strengths in subtle grid) → Featured Work Preview (2-3 case study cards) → Brief About Teaser → CTA to Case Studies/Contact
+Hero (85vh with image) → "What I Do" (3-card grid: UX Strategy, Product Design, Research) → Featured Projects (2 spotlight cards with large previews) → About Teaser (split layout: photo + brief story) → Freelance CTA (Divine Align Design positioning) → Contact
 
-### Case Studies Page
-Page header with filter/category options → Grid of 4 project cards → Each links to individual project detail page with full case study structure
-
-### About Me
-Hero with photo → UX Journey narrative → Soccer/Travel story → Skills/Expertise → Modeling gallery (masonry grid)
+### Case Studies
+Page header with category filters → 4-project grid → Each leads to comprehensive detail page
 
 ### Additional Talents
-Creative showcase mixing modeling images, motion design samples, content creation highlights in dynamic, editorial-style layout
+Editorial layout mixing modeling portfolio (6-8 curated images), creative direction samples, personal projects - demonstrates multidisciplinary thinking valuable to UX consulting
 
-### Contact
-Simple centered layout with form + alternative contact methods (email, LinkedIn)
+## Responsive Strategy
+Mobile-first with desktop enhancements. Single column mobile, strategic 2-3 columns desktop. Touch-friendly 48px minimum tap targets. Hamburger menu mobile with elegant slide-in drawer featuring constellation background. Simplified celestial decorations on mobile - maintain sophistication without clutter.
 
-## Responsive Behavior
-Mobile-first with graceful scaling. Single column on mobile, strategic 2-3 columns on tablet/desktop for grids. Touch-friendly hit areas (min 44px). Simplified navigation on mobile (hamburger menu with elegant slide-in).
+## Color Application Structure
+- Teal: Primary links, buttons, focus states, section accents
+- Gold: Premium CTAs, achievement highlights, decorative accents, hover states on primary elements
+- Orchid-pink: Tertiary accents, playful micro-interactions, select icon fills
+- Neutrals: Clean whites, sophisticated grays for backgrounds and text
