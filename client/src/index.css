@@ -18,33 +18,33 @@
   --sidebar: 270 4% 96%;
   --sidebar-foreground: 270 8% 12%;
   --sidebar-border: 270 5% 90%;
-  --sidebar-primary: 275 65% 42%;
-  --sidebar-primary-foreground: 275 10% 98%;
+  --sidebar-primary: 158 64% 42%;
+  --sidebar-primary-foreground: 158 10% 98%;
   --sidebar-accent: 270 8% 88%;
   --sidebar-accent-foreground: 270 12% 20%;
-  --sidebar-ring: 275 60% 50%;
+  --sidebar-ring: 158 60% 50%;
   --popover: 270 4% 94%;
   --popover-foreground: 270 10% 10%;
   --popover-border: 270 5% 88%;
-  --primary: 275 65% 42%;
-  --primary-foreground: 275 10% 98%;
+  --primary: 158 64% 42%;
+  --primary-foreground: 158 10% 98%;
   --secondary: 270 8% 88%;
   --secondary-foreground: 270 12% 20%;
   --muted: 270 10% 90%;
   --muted-foreground: 270 12% 35%;
-  --accent: 195 75% 88%;
-  --accent-foreground: 195 85% 18%;
+  --accent: 220 85% 60%;
+  --accent-foreground: 220 95% 12%;
   --destructive: 0 72% 48%;
   --destructive-foreground: 0 10% 98%;
   --input: 270 15% 75%;
-  --ring: 275 60% 50%;
-  --chart-1: 275 65% 38%;
-  --chart-2: 195 75% 35%;
-  --chart-3: 145 65% 35%;
+  --ring: 158 60% 50%;
+  --chart-1: 158 64% 42%;
+  --chart-2: 220 85% 50%;
+  --chart-3: 280 70% 55%;
   --chart-4: 30 75% 45%;
-  --chart-5: 320 65% 42%;
-  --font-sans: Open Sans, sans-serif;
-  --font-serif: Georgia, serif;
+  --chart-5: 158 50% 35%;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
   --font-mono: Menlo, monospace;
   --radius: .5rem;
   --shadow-2xs: 0px 2px 0px 0px hsl(270 8% 12% / 0.00);
@@ -102,31 +102,31 @@
   --sidebar: 270 6% 12%;
   --sidebar-foreground: 270 4% 92%;
   --sidebar-border: 270 7% 16%;
-  --sidebar-primary: 275 60% 55%;
-  --sidebar-primary-foreground: 275 8% 10%;
+  --sidebar-primary: 158 60% 50%;
+  --sidebar-primary-foreground: 158 8% 10%;
   --sidebar-accent: 270 8% 18%;
   --sidebar-accent-foreground: 270 5% 90%;
-  --sidebar-ring: 275 55% 60%;
+  --sidebar-ring: 158 55% 60%;
   --popover: 270 6% 14%;
   --popover-foreground: 270 4% 92%;
   --popover-border: 270 7% 18%;
-  --primary: 275 60% 32%;
-  --primary-foreground: 275 8% 96%;
+  --primary: 158 60% 50%;
+  --primary-foreground: 158 8% 96%;
   --secondary: 270 8% 20%;
   --secondary-foreground: 270 5% 88%;
   --muted: 270 8% 16%;
   --muted-foreground: 270 6% 65%;
-  --accent: 195 18% 18%;
-  --accent-foreground: 195 40% 88%;
+  --accent: 220 70% 45%;
+  --accent-foreground: 220 40% 88%;
   --destructive: 0 65% 35%;
   --destructive-foreground: 0 8% 96%;
   --input: 270 12% 28%;
-  --ring: 275 55% 60%;
-  --chart-1: 275 70% 72%;
-  --chart-2: 195 75% 68%;
-  --chart-3: 145 65% 65%;
+  --ring: 158 55% 60%;
+  --chart-1: 158 70% 72%;
+  --chart-2: 220 75% 68%;
+  --chart-3: 280 65% 70%;
   --chart-4: 30 80% 65%;
-  --chart-5: 320 70% 70%;
+  --chart-5: 158 60% 60%;
   --shadow-2xs: 0px 2px 0px 0px hsl(270 4% 95% / 0.00);
   --shadow-xs: 0px 2px 0px 0px hsl(270 4% 95% / 0.00);
   --shadow-sm: 0px 2px 0px 0px hsl(270 4% 95% / 0.00), 0px 1px 2px -1px hsl(270 4% 95% / 0.00);
@@ -168,6 +168,10 @@
 @layer base {
   * {
     @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
